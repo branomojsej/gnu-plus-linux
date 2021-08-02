@@ -1,0 +1,31 @@
+main {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+b {
+    font-size: 2.5em;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+button {
+    display: block;
+    margin: 5px auto;
+    font-size: 1em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#doggie {
+    display: none;
+}
+
+#doggie:target {
+    display: block;
+}

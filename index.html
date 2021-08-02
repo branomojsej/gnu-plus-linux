@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Truth</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
 
 <body>
@@ -36,11 +37,13 @@
         <button>
             <a href="#doggie">Doggie with sunglasses</a>
         </button>
+        <audio src="woof.ogg" id="woof"></audio>
         <section id="doggie">
             <img src="doggie.jpeg" alt="doggie" width="960">
-            <button>
-                <a href="woof.html#doggie">Pet doggie</a>
-            </button>
+            <button onclick="woof()">Pet doggie</button>
+            <noscript>
+                <p>Doggie petting requires JS :---(</p>
+            </noscript>
         </section>
 
     </main>
